@@ -94,10 +94,10 @@ namespace ScratchProject.Api
                 });
 
             builder.Services.AddAuthorization(options => { });
-            builder.Host.ConfigureAppConfiguration((hostingContext, config) =>
-            {
-                config.AddJsonFile("C:\\CustomData\\Config.json", optional: false, reloadOnChange: false);
-            });
+            // builder.Host.ConfigureAppConfiguration((hostingContext, config) =>
+            // {
+            //     config.AddJsonFile("C:\\CustomData\\Config.json", optional: false, reloadOnChange: false);
+            // });
 
             return builder;
         }

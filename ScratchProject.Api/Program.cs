@@ -1,17 +1,4 @@
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Authorization;
-using Microsoft.AspNetCore.Mvc.Versioning;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.IdentityModel.Tokens;
-using Microsoft.OpenApi.Models;
 using ScratchProject.Api;
-using ScratchProject.Api.DatabaseContext;
-using ScratchProject.Api.Intefaces;
-using ScratchProject.Api.Services;
-using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
